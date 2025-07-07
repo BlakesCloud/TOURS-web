@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>TCB ADVENTURES</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="blog.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+
+<!-- Navigation -->
+ <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">TCB ADVENTURES</a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">TCB ADVENTURES</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="index.html">HOME</a></li>
+          <li>
+            <a href="about.html">ABOUT</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">Hotline</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Book Session</a></li>
+              <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">Accomodation</a></li>
+                  <li><a href="#">Pre-travel</a></li>
+                  <li><a href="#">Bronchures</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="bookings.html">BOOKINGS</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Group travel</a></li>
+              <li><a href="#">Meal Plan</a></li>
+              <li><a href="#">Spa</a></li>
+              <li><a href="#">AIRBNB</a></li>
+            </ul>
+          </li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="auth">
+        <button class="login">Login</button>
+        <button class="signup">Sign up</button>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+ </nav>
+
+<!-- Header Slider -->
+<div class="slider">
+  <div class="list">
+    <div class="item"><img src="assets/Gaming.jpg" alt=""></div>
+    <div class="item"><img src="assets/Mombasa, Kenya _ The Ultimate Travel Guide (2025).jpeg" alt=""></div>
+    <div class="item"><img src="assets/Diani Beach, Kenyan Coast.jpeg" alt=""></div>
+    <div class="item"><img src="assets/Hot Air Balloon Safari_ Soaring Over the….jpeg" alt=""></div>
+    <div class="item"><img src="assets/savana.jpeg" alt=""></div>
+  </div>
+  <div class="buttons">
+    <button id="prev"><</button>
+    <button id="next">></button>
+  </div>
+  <div class="hero-content container">
+    <h1>Live Your <span class="highlight">Adventure</span></h1>
+    <p>Don’t wait until tomorrow, discover your adventure now and feel the sensation of closeness to nature.</p>
+    <div class="search-box">
+      <input type="text" placeholder="Where you want to go">
+      <input type="date" placeholder="Check-in">
+      <input type="date" placeholder="Check-out">
+      <button class="explore-btn">Explore Now</button>
+    </div>
+  </div>
+  <ul class="dots">
+    <li class="active"></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+<!--Popular section-->
+  <section class="popular-section">
+    <div class="container">
+      <h2>Find <span class="highlight">Popular</span> Destinations</h2>
+      <h4>Below are some sites packed with the most astounding adventures yet! These places will blow your mind!Join the tour now and make memperies of your own.</h4>
+      <div class="destination-grid">
+        <div class="card">
+          <img src="assets/Ol Donyo Sabuk's Panoramic Vistas.jpeg" alt="">
+          <div class="card-info">
+            <h3>Laikipia</h3>
+            <p>Eastern Kenya</p>
+            <div class="price">Ksh.20,000 <span>/person</span></div>
+            <button>Book</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/Diani Beach, Kenyan Coast.jpeg" alt="">
+          <div class="card-info">
+            <h3>Coastal Beaches</h3>
+            <p>Diani, Kwale</p>
+            <div class="price">KSH.14,000<span>/person</span></div>
+            <button>Book</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/pic-2.png" alt="">
+          <div class="card-info">
+            <h3>Hyrax Hill</h3>
+            <p>Gilgil, Central Kenya</p>
+            <div class="price">KSH.8,000 <span>/person</span></div>
+            <button>Book</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Testimonials -->
+<section class="testimonials container">
+  <h2>What people say about Us.</h2>
+  <h4>Here are some testinomials from the most astounding adventiures yet! These credits will blow your mind!Join the team now and capture lifelong memperies of your own.</h4>
+  <div class="swiper card-wrapper">
+    <ul class="card-list swiper-wrapper">
+      <li class="card-item swiper-slide">
+        <a href="#" class="card-link">
+          <img src="assets/lamu was beautiful.jpeg" alt="" class="card-image">
+          <p class="badge beach">Malindi Beach</p>  
+          <h2 class="card-title">"Malindi is a must visit site for everyone."....Khadija Anwar</h2> 
+          <button class="card-button material-symbols-rounded">arrow_forward</button>
+        </a>
+      </li>
+      <li class="card-item swiper-slide">
+        <a href="#" class="card-link">
+          <img src="assets/Safari in Africa.jpeg" alt="" class="card-image">
+          <p class="badge desert">Nyika safari</p>  
+          <h2 class="card-title">"The savanna can be a beautiful place. Wild game in person is something else."...Wilhelm</h2> 
+          <button class="card-button material-symbols-rounded">arrow_forward</button>
+        </a>
+      </li>
+      <li class="card-item swiper-slide">
+        <a href="#" class="card-link">
+          <img src="assets/Lamu, le paradis.jpeg" alt="" class="card-image">
+          <p class="badge desert">Streets of Lamu</p>  
+          <h2 class="card-title">"The historic presence of the Omans in the flesh. Centuries later and we're still seeing their great antiques."...Wendy Graham</h2> 
+          <button class="card-button material-symbols-rounded">arrow_forward</button>
+        </a>
+      </li>
+      <li class="card-item swiper-slide">
+        <a href="#" class="card-link">
+          <img src="assets/Sun, Sand.jpeg" alt="" class="card-image">
+          <p class="badge Kisumu">FORT JESUS</p>  
+          <h2 class="card-title">"The aura was amazing of the fort is unlike anything...military in that era was revolutionary."...Baraza</h2> 
+          <button class="card-button material-symbols-rounded">arrow_forward</button>
+        </a>
+      </li>
+      <li class="card-item swiper-slide">
+        <a href="#" class="card-link">
+          <img src="assets/Ol Donyo Sabuk's Panoramic Vistas.jpeg" alt="" class="card-image">
+          <p class="badge volcano">Oldonyo Sabuk</p>  
+          <h2 class="card-title">"You don't have to go outside the country to experience such amazing views.TCB Adventures are onto something here."</h2> 
+          <button class="card-button material-symbols-rounded">arrow_forward</button>
+        </a>
+      </li>
+      <li class="card-item swiper-slide">
+        <a href="#" class="card-link">
+          <img src="assets/Kit Mikaye, Kisumu, Kenya.jpeg" alt="" class="card-image">
+          <p class="badge volcano">Kit Mikaye</p>  
+          <h2 class="card-title">"Talk about sacred pre historic sites!My skin was literally crawling the whole time."...Kioko</h2> 
+          <button class="card-button material-symbols-rounded">arrow_forward</button>
+        </a>
+      </li>
+      <li class="card-item swiper-slide">
+        <a href="#" class="card-link">
+          <img src="assets/Hell’s Kitchen - Malindi, Kenya.jpeg" alt="" class="card-image">
+          <p class="badge volcano">Hell’s Kitchen</p>  
+          <h2 class="card-title">"I was expecting to see pans and crockery but it's cool."....Brian</h2> 
+          <button class="card-button material-symbols-rounded">arrow_forward</button>
+        </a>
+      </li>
+    </ul>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+<section class="stories-section">
+    <div class="container">
+      <div class="story-content">
+        <div class="text-block">
+          <h2>Our <span class="highlight">Stories</span> With Adventurers</h2>
+          <p>We are experienced in bringing adventurers to start their journey.Here are just a few of the perks of being with us!</p>
+          <div class="stats">
+            <div><strong>100%</strong><br>Guaranteed Depatures</div>
+            <div><strong>16+</strong><br>Experienced Guides</div>
+            <div><strong>20+</strong><br>Local destinations</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <footer class="footer">
+    <div class="container">
+      <div class="footer-columns">
+        <div>
+          <h4>Trip Info</h4>
+          <ul>
+            <li>Features</li>
+            <li>Categories</li>
+            <li>Top Trips</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li>Who We Are</li>
+            <li>Our Location</li>
+            <li>Jobs</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Customers</h4>
+          <ul>
+            <li>FAQ</li>
+            <li>Help</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get In Touch</h4>
+          <p>travel@travo.com</p>
+          <p>+254-700-000-000</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="app.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
